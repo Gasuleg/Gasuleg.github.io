@@ -10,7 +10,7 @@ title: Gasuleg
 email: olivier.gregoire.1@ens.etsmtl.ca
 description: > # this means to ignore newlines until "baseurl:"
   Hi Gsocer, hi other people who are interested to read my blog! :)
-  I'm Olivier Grégoire, I'm studying computer siences at ÉTS Montreal. This
+  I'm Olivier Grégoire, I'm studying computer sience at ÉTS Montreal. This
   summer I participate at the GSOC (Google Summer of Code).
   Have a nice day on my blog and contact me if you have any questions.
 baseurl: "" # the subpath of your site, e.g. /blog
