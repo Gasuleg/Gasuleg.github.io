@@ -1,25 +1,27 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Community bounding + 2 weeks at GSoC!"
 date:   2016-06-06 12:57:51 -0400
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Welcome in my first and second report!
+The community was really good, I talked with a lot of people from all around the world. All that projects are just awesome and I am happy to be part of this.
+For this first week, I provided a list of all information I need to pull in my client (this list is subject to change a little bit):
+-Call ID
+-Resolution of the camera of all the people connect to the call
+-Percentage of loosing frame
+-Bandwidth (upload + download)
+-Name of Codecs using on the conversation
+-Time to contact the other person
+-The security level
+-Performance using by Ring (RAM + CPU)
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+I am trying to figure out how work the Ring project.
+-Understand the external exchange by using Wireshark to catch some important packages.
+-Understand the internal exchange between the daemon and clients on the D-Bus by using Bustle
 
-Jekyll also offers powerful support for code snippets:
+I created my architecture program on the daemon and the D-Bus. [1] You can call the method launchSmartInfo(int x) from the D-Bus (by using D-Feet for example). That will call SmartInfo signal all x ms. This signal can only push an int for the moment, but he will push all the information we want on the clients.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+I actually work on the Ring GNU Linux client. So I learn how work the QT and GTK+.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[1] https://github.com/Gasuleg/Smartlnfo-Ring (I will stop update this repository because I will push my code on the Gerrit draft of Savoir Faire Linux. It's more easy for my team to do some commentary on that platform and it's free software)
