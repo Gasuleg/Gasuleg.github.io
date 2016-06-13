@@ -17,6 +17,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gasuleg.github.io/" # the base hostname & protocol for your site
 github_username:  Gasuleg
 google_analytics: UA-58721921-2
+linkedin_username: gregoireolivier
 
 # Build settings
 markdown: kramdown
