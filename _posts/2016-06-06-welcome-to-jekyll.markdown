@@ -2,7 +2,7 @@
 layout: post
 title:  "Community bounding + 2 weeks at GSoC!"
 date:   2016-06-06 12:57:51 -0400
-categories: jekyll update
+categories: weekly report
 ---
 <p>Welcome in my first and second report!<br/>
 The community was really good, I talked with a lot of people from all around the world. All that projects are just awesome and I am happy to be part of this.<br/>
