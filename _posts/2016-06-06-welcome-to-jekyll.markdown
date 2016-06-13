@@ -24,4 +24,4 @@ For this first week, I provided a list of all information I need to pull in my c
 
 <p>I actually work on the Ring GNU Linux client. So I learn how work the QT and GTK+.</p>
 
-<p>[1][https://github.com/Gasuleg/Smartlnfo-Ring](https://github.com/Gasuleg/Smartlnfo-Ring)(I will stop update this repository because I will push my code on the Gerrit draft of Savoir Faire Linux. It's more easy for my team to do some commentary on that platform and it's free software)</p>
+<p>[1]<a href="https://github.com/Gasuleg/Smartlnfo-Ring">github/Gasuleg/Smartlnfo-Ring</a>: I will stop update this repository because I will push my code on the Gerrit draft of Savoir Faire Linux. It's more easy for my team to do some commentary on that platform and it's free software)</p>
