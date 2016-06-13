@@ -9,10 +9,7 @@
 title: Gasuleg
 email: olivier.gregoire.1@ens.etsmtl.ca
 description: > # this means to ignore newlines until "baseurl:"
-  Hi Gsocer, hi other people who are interested to read my blog! :)<br/>
-  I'm Olivier Grégoire, I'm studying computer sience at ÉTS Montreal. This
-  summer I participate at the GSOC (Google Summer of Code).<br/>
-  Have a nice day on my blog and contact me if you have any questions.
+  Hi, welcome to my blog!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gasuleg.github.io/" # the base hostname & protocol for your site
 github_username:  Gasuleg
