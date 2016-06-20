@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "Third week at GSoC"
-date:   2016-06-13 12:57:51 -0400
+title:  "Fourth week at GSoC: let's integrate this new window!"
+date:   2016-06-14 12:57:51 -0400
 categories: weekly report
 ---
-<p>I begin this week by finish my QT tutorial. With that new knowledge, I was able to implemet my method launchSmartInfo(int) on <a href="https://ring.cx/en/about/technical">LRC</a><p>.
+I began by trying to integrate my window like a new view. That was not a good idea because my UI is actually integrated in the call view.
+So, I tried to integrate it like the buttons present on the view. Not a really good idea too, I have some issue with the clutter who do strange stuff. Finally, I work in a new window. I think that's a good idea because when you want to debug ring, it's more easier with a separate window.
 
-<p>After that, I needed to implement the gnome client too. I followed the tutorial on QT so I thought I can just learn GTK+ by reading the code. Finally, I just lost a lot of time by doing that and I didn't learn a lot. In response to that problem I finally use an GTK+ tutorial.<p>
-
-<p>I began to try to show n transparente window with some text in front of the call view. To do that, I want to use clutter library<p>
-<p>------------<p>
-<p>Conclusion: as you can see, I lost a lot of time in this GUI learning. Now it's done, I can move forward! :)<p>
+I have meet some conflicts between my clean installation from the official website and my installation test. In response to this issue, I began to install my program test in another folder.
