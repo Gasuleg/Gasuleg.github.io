@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sixth week: and the framerates appear...."
-date:   2016-06-29 12:57:51 -0400
+date:   2016-07-05 12:57:51 -0400
 categories: weekly report
 ---
 <p>Last week, I worked on linking the D_BUS with the client and implement MAP on my callback smartInfo to push all my information in only one parameter. </p>

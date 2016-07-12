@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Seventh week: create a new architecture and send a lot of information"
-date:   2016-06-29 12:57:51 -0400
+date:   2016-07-12 12:57:51 -0400
 categories: weekly report
 ---
 
