@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Tenth : SmartInfo is alive!"
+date:   2016-08-02 12:57:51 -0400
+categories: weekly report
+---
+
+Hi, <br>
+This week, I worked on the gnome client. I wanted to link my right click menu with the call view. That's was difficult because the right click menu is called by a signal. So, I didn't have access to the instance of the menu to send my own signal. I tried a lot of things to implement my signal, but it's just impossible.
+Then I discovered the GAction. With this technique, I just needed to change the state of my action and connect it with my method in my view and it's done!
+
+I had now a complete working solution that I tested to find improvements and bugs.<br>
+-Change the 2 buttons who launch and stop the system by one unique button.<br>
+-Resolve the bug who crash ring when I tried to use SmartInfo in a new call.<br>
+-Some other small bugs
+
+See you next week!
+
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/4315/"> Daemon </a><br>
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/4388/"> LRC </a><br>
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/4384/"> Client </a><br>
