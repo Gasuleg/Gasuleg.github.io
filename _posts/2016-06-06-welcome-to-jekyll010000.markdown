@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ninth : Implementation of my API on the daemon"
+title:  "Ninth week: Implementation of my API on the daemon"
 date:   2016-07-28 12:57:51 -0400
 categories: weekly report
 ---

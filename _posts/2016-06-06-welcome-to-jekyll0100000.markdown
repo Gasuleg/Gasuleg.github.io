@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tenth : SmartInfo is alive!"
+title:  "Tenth week: SmartInfo is alive!"
 date:   2016-08-02 12:57:51 -0400
 categories: weekly report
 ---

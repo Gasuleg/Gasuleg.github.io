@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Height week: create an API on library ring client (LRC)"
+title:  "Eighth week: create an API on library ring client (LRC)"
 date:   2016-07-21 12:57:51 -0400
 categories: weekly report
 ---
