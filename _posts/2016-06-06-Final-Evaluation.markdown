@@ -2,7 +2,7 @@
 layout: post
 title:  "Conclusion Google Summer of Code 2016"
 date:   2016-08-19 8:57:51 -0400
-categories: GSoC Final_report
+categories: GSoC2016 Final_report
 ---
 
 
@@ -93,8 +93,22 @@ And this is how I implemented my project.<br>
 - Gather more information, such as bandwidth, resource consumption, security level, connection time, number of packets lost and anything else that could be deemed interesting<br>
 - Display information for every participant in a conference call. I began to implement it for the daemon on <a href="https://gerrit-ring.savoirfairelinux.com/#/c/4315/25"> patch set 25 </a>.
 
+**Weekly report link**
 
-**6. Thanks**
+- <a href="https://lists.debian.org/debian-outreach/2016/06/msg00006.html"> Week 1 & 2</a><br>
+- <a href="https://lists.debian.org/debian-outreach/2016/06/msg00026.html"> Week 3</a><br>
+- <a href="https://lists.debian.org/debian-outreach/2016/06/msg00045.html"> Week 4</a><br>
+- <a href="https://lists.debian.org/debian-outreach/2016/06/msg00068.html"> Week 5</a><br>
+- <a href="https://lists.debian.org/debian-outreach/2016/07/msg00006.html"> Week 6</a><br>
+- <a href="https://lists.debian.org/debian-outreach/2016/07/msg00021.html"> Week 7</a><br>
+- <a href="https://lists.debian.org/debian-outreach/2016/07/msg00046.html"> Week 8</a><br>
+- <a href="https://lists.debian.org/debian-outreach/2016/07/msg00064.html"> Week 9</a><br>
+- <a href="https://lists.debian.org/debian-outreach/2016/08/msg00005.html"> Week 10</a><br>
+- <a href="https://lists.debian.org/debian-outreach/2016/08/msg00011.html"> Week 11</a><br>
+- <a href="https://lists.debian.org/debian-outreach/2016/08/msg00038.html"> Week 12</a><br>
+
+
+**Thanks**
 
 I would like to thank the following:<br>
 - The <a href="https://summerofcode.withgoogle.com">Google Summer of Code</a> organisation, for this wonderful experience. <br>
