@@ -13,7 +13,7 @@ categories: GSoC2016 Final_report
 
 Before getting into the thick of my project, let me present myself: <br>
 I am Olivier Grégoire (Gasuleg), and I study IT engineering at École de Technologie supérieure in Montreal. <br>
-I am an technician in electronics, and I began object-oriented programming just last year. <br>
+I am a technician in electronics, and I began object-oriented programming just last year. <br>
 I applied to GSoC because I loved the concept of the project that I would work on and I really wanted to be part of it. I also wanted to discover the word of the free software.
 
 **2. My Project**
@@ -45,14 +45,12 @@ Here are the links to the code I was working on all throughout the Google Summer
 
 Patch | Status
 :--- | :---
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/4315/42">Daemon </a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/4388/29">Lib Ring Client (LRC) </a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/4384/36">Gnome client </a> | On review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/4315/44">Daemon </a> | Merged
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/4388/30">Lib Ring Client (LRC) </a> | On Review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/4384/37">Gnome client </a> | On Review
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/4234/2">Remove unused code </a>&nbsp; | Merged
 
-!!!!!CHANGE LINK TO PUT THE LATEST PATCHES BEFORE THE END OF GSOC!!!!!
-
-
+<br>
 **What Can Be Displayed?** <br>
 This is the final list of information I can display and some ideas on what information we could display in the future:
 
