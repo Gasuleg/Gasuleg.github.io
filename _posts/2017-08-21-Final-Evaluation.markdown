@@ -32,14 +32,14 @@ During this GSoC, I worked on the <a href="https://ring.cx/"> GNU Ring </a> proj
 
 <strong>What I need to do?</strong><br>
 
-This project is, at the moment, unstable due to a lack of automated tests. Only a part of the code is tested. I Need to improve this. <br>
+This project is, at the moment, unstable due to a lack of automated tests. Only a part of the code is tested. I need to improve this. <br>
 To do that, I need to:
   * Reimplement some unit tests to check the components of the SIP pur account.
   * Research and test automation strategies that integrate the compilation system and Jenkins verification.
   * Write more unit tests for the critical functions in order to increase the code coverage.
 
 
-<a href="https://github.com/Gasuleg/proposal-GNU/blob/master/proposalGNU.pdf">My proposal</a>
+See more in <a href="https://github.com/Gasuleg/proposal-GNU/blob/master/proposalGNU.pdf">my proposal</a>!
 
 # 3. What my code can do
 
@@ -50,14 +50,15 @@ Here are the links to the code I was working on all throughout the Google Summer
 
 Patch | Status
 :--- | :---
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7167/">black box testing sip </a> | Merged
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7708/2">refactoring + video_input unit test  </a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7710/1">fix sip error </a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7677/2">new unit test: smartools </a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7679/2">new unit test:account_factory </a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7680/2">new unit test: util classes </a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7681/2">new unit test: archiver, conference, preferences</a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7682/2">new unit test: dring, threadloop </a> | WIP
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7167/">Black box testing sip </a> | Merged
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7710/1">Fix sip error </a> | On Review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7677/2">New unit test: smartools </a> | On Review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7679/2">New unit test:account_factory </a> | On Review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7680/2">New unit test: util classes </a> | On Review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7681/2">New unit test: archiver, conference, preferences</a> | On Review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7682/2">New unit test: dring, threadloop </a> | WIP
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7708/2">Refactoring + video_input unit test  </a>  <br><a href="https://gerrit-ring.savoirfairelinux.com/#/c/7311/">Base on this patch</a>| On Review
+{:.mbtablestyle}
 
 # 4. What's next?
 
