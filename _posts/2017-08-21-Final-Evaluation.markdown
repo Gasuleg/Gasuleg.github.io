@@ -58,10 +58,12 @@ Patch | Status
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7681/2">New unit test: archiver, conference, preferences</a> | On Review
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7682/2">New unit test: dring, threadloop </a> | WIP
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7708/2">Refactoring + video_input unit test  </a>  <br><a href="https://gerrit-ring.savoirfairelinux.com/#/c/7311/">Base on this patch</a>| On Review
+Documentation | soon
 {:.mbtablestyle}
 
 # 4. What's next?
 
+- Merge all the patchs
 - Add gcov to know the code coverage
 - Increase the code coverage
 
