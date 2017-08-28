@@ -52,15 +52,15 @@ Patch | Status
 :--- | :---
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7167/">Black box testing sip </a> | Merged
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7710/1">Fix sip error </a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7677/2">New unit test: smartools </a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7679/2">New unit test:account_factory </a> | On Review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7677/8">New unit test: smartools </a> | Merged
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7679/8">New unit test:account_factory </a> | Merged
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7680/2">New unit test: util classes </a> | On Review
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7681/2">New unit test: archiver, conference, preferences</a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7682/2">New unit test: dring, threadloop </a> | WIP
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7708/2">Refactoring + video_input unit test  </a>  <br><a href="https://gerrit-ring.savoirfairelinux.com/#/c/7311/">Base on this patch</a>| On Review
-Documentation | soon
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7682/2">New unit test: dring, threadloop </a> | On Review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7708/4">Refactoring + video_input unit test  </a>  <br><a href="https://gerrit-ring.savoirfairelinux.com/#/c/7311/">Base on this patch</a>| Merged
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7799/">Documentation </a> | WIP
 {:.mbtablestyle}
-
+<br>
 # 4. What's next?
 
 - Merge all the patchs
