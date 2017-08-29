@@ -54,8 +54,9 @@ Patch | Status
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7680/8">New unit test: util classes </a> | On Review
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7681/7">New unit test: archiver, conference, preferences</a> | On Review
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7682/7">New unit test: dring, threadloop </a> | On Review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7799/3">Documentation </a> | On Review
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7311/">Refactoring + video_input unit test</a>| Abandoned
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7799/">Documentation </a> | WIP
+
 {:.mbtablestyle}
 <br>
 **How to use the code?**<br>
