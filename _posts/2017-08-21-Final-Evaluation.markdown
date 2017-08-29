@@ -49,25 +49,36 @@ Here are the links to the code I was working on all throughout the Google Summer
 Patch | Status
 :--- | :---
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7167/">Black box testing sip </a> | Merged
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7710/1">Fix sip error </a> | On Review
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7677/8">New unit test: smartools </a> | Merged
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7679/8">New unit test:account_factory </a> | Merged
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7680/2">New unit test: util classes </a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7681/2">New unit test: archiver, conference, preferences</a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7682/2">New unit test: dring, threadloop </a> | On Review
-<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7708/4">Refactoring + video_input unit test  </a>  <br><a href="https://gerrit-ring.savoirfairelinux.com/#/c/7311/">Base on this patch</a>| Merged
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7680/8">New unit test: util classes </a> | On Review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7681/7">New unit test: archiver, conference, preferences</a> | On Review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7682/7">New unit test: dring, threadloop </a> | On Review
+<a href="https://gerrit-ring.savoirfairelinux.com/#/c/7311/">Refactoring + video_input unit test</a>| Abandoned
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7799/">Documentation </a> | WIP
 {:.mbtablestyle}
 <br>
 **How to use the code?**<br>
-Follow the instructions to <a href="https://tuleap.ring.cx/plugins/mediawiki/wiki/ring/index.php/Build_Instructions">build the daemon</a> and instead of doing "make", do "make check".
-**Some explanations of the code**<br>
+Follow the instructions to <a href="https://tuleap.ring.cx/plugins/mediawiki/wiki/ring/index.php/Build_Instructions">build the daemon</a> and instead of doing "make", do "make check". You will see something composed of:<br>
+* Test automation strategies<br>
+![alt text](https://github.com/Gasuleg/gasuleg.github.io/blob/master/_includes/sipTest.png?raw=true "test SIP")<br>
+* Unit test
+![alt text](https://github.com/Gasuleg/gasuleg.github.io/blob/master/_includes/unitTest.png?raw=true "unit test")<br>
 
+**Some explanations of the code**<br>
+The tests are based on <a href="http://cppunit.sourceforge.net/doc/cvs/index.html">CPPunit framework</a>.<br>
+I created some Black box testing to do some calls using SIP protocole. To do that, I created scenarios using <a href="http://sipp.sourceforge.net/doc/reference.html">SIPp</a> . <br>
+I also create a lot of unit tests.<br>
+
+**Difficulties encountered**<br>
+My project was a little bit difficult to settup because I never touch autotools before that.<br>
+The sip tests was not really difficult to create. <a href="http://sipp.sourceforge.net/doc/reference.html">SIPp</a> is really easy to use.<br>
+The unit test part was more tricky. It's really easly to do test before coding like the <a href="https://en.wikipedia.org/wiki/Test-driven_development">Test-driven_development</a> said. Here the code is already write and I need to test it. So, I needed to create test base on the code and not what he need to do. Also, I got some issues with classes who are really link together so I can't make unit test with it.
 
 # 4. What's next?
 
 - Merge all the patchs
-- Add gcov to know the code coverage
+- Add <a href="https://https://gerrit-ring.savoirfairelinux.com/#/c/7799/cc.gnu.org/onlinedocs/gcc-4.7.3/gcc/Gcov.html">gcov </a>to know the code coverage
 - Increase the code coverage
 
 
