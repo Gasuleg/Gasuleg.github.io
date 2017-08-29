@@ -34,16 +34,14 @@ During this GSoC, I worked on the <a href="https://ring.cx/"> GNU Ring </a> proj
 
 This project is, at the moment, unstable due to a lack of automated tests. Only a part of the code is tested. I need to improve this. <br>
 To do that, I need to:
-  * Reimplement some unit tests to check the components of the SIP pur account.
-  * Research and test automation strategies that integrate the compilation system and Jenkins verification.
-  * Write more unit tests for the critical functions in order to increase the code coverage.
-
+  * Research and test automation strategies that integrate the compilation system and Jenkins verification like the SIP tests
+  * Implement some unit tests to check the components <br>
 
 See more in <a href="https://github.com/Gasuleg/proposal-GNU/blob/master/proposalGNU.pdf">my proposal</a>!
 
-# 3. What my code can do
+# 3. The Code
 
-**The Code** <br>
+**Links to my work** <br>
 
 Here are the links to the code I was working on all throughout the Google Summer of Code:
 
@@ -61,6 +59,11 @@ Patch | Status
 <a href="https://gerrit-ring.savoirfairelinux.com/#/c/7799/">Documentation </a> | WIP
 {:.mbtablestyle}
 <br>
+**How to use the code?**<br>
+Follow the instructions to <a href="https://tuleap.ring.cx/plugins/mediawiki/wiki/ring/index.php/Build_Instructions">build the daemon</a> and instead of doing "make", do "make check".
+**Some explanations of the code**<br>
+
+
 # 4. What's next?
 
 - Merge all the patchs
