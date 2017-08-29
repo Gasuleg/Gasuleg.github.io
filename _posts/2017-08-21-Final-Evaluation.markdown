@@ -67,13 +67,13 @@ Follow the instructions to <a href="https://tuleap.ring.cx/plugins/mediawiki/wik
 
 **Some explanations of the code**<br>
 The tests are based on <a href="http://cppunit.sourceforge.net/doc/cvs/index.html">CPPunit framework</a>.<br>
-I created some Black box testing to do some calls using SIP protocole. To do that, I created scenarios using <a href="http://sipp.sourceforge.net/doc/reference.html">SIPp</a> . <br>
+I created some Black box testing to do some calls using SIP protocol. To do that, I created scenarios using <a href="http://sipp.sourceforge.net/doc/reference.html">SIPp</a> . <br>
 I also create a lot of unit tests.<br>
 
 **Difficulties encountered**<br>
-My project was a little bit difficult to settup because I never touch autotools before that.<br>
-The sip tests was not really difficult to create. <a href="http://sipp.sourceforge.net/doc/reference.html">SIPp</a> is really easy to use.<br>
-The unit test part was more tricky. It's really easly to do test before coding like the <a href="https://en.wikipedia.org/wiki/Test-driven_development">Test-driven_development</a> said. Here the code is already write and I need to test it. So, I needed to create test base on the code and not what he need to do. Also, I got some issues with classes who are really link together so I can't make unit test with it.
+My project was a little bit difficult to setup because I never touch autotools before that.<br>
+The sip tests were not really difficult to create. <a href="http://sipp.sourceforge.net/doc/reference.html">SIPp</a> is really easy to use.<br>
+The unit test part was more tricky. It's really easier to do the tests before coding like the <a href="https://en.wikipedia.org/wiki/Test-driven_development">Test-driven_development</a> said. Here the code is already written and I need to test it. So, I needed to create tests based on the code and not what he needed to do. Also, I got some issues with classes who were really linked together so I couldn't make unit test with it.
 
 # 4. What's next?
 
